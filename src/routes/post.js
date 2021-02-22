@@ -9,8 +9,8 @@ router.get('/all', postController.find);
 
 router.use(ensureAuth, ensureSME);
 router.post('/sme/fetchURL', postController.findByURL);
-router.post('/sme/stamp-it', postController.stampIt);
-router.post('/sme/stamp-remove', postController.stampRemove);
+router.patch('/sme/stamp-it', postController.stampIt);
+router.patch('/sme/stamp-remove', postController.stampRemove);
 router.delete('/sme/post-remove', postController.postRemove);
 
 module.exports = router;

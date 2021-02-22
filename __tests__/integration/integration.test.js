@@ -85,7 +85,7 @@ describe('Integration', () => {
 
   it('Shouldnt allow not SME user to approve/stamp some post', async () => {
     const res = await request(app)
-      .post('/v1/post/sme/stamp-it')
+      .patch('/v1/post/sme/stamp-it')
       .set('Authorization', `Bearer ${token}`)
       .send({
         postId:"123"
@@ -126,7 +126,7 @@ describe('Integration', () => {
 
   it('Should avoid user to approve/stamp same post more than once', async () => {
     const res = await request(app)
-      .post('/v1/post/sme/stamp-it')
+      .patch('/v1/post/sme/stamp-it')
       .set('Authorization', `Bearer ${token}`)
       .send({
         postId,
