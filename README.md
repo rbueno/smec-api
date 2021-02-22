@@ -86,3 +86,7 @@ yarn add
 yarn test
 yarn dev
 ```
+## Api Example
+
+* [Heroku](https://www.heroku.com/) - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud
+[https://smecollection.herokuapp.com/v1](https://smecollection.herokuapp.com/v1)
