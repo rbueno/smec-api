@@ -1,6 +1,6 @@
-# SMEC-C
+# VSME
 
-Subject-Matter Experts Collection (SME-C) is an app with educational / informational purpose. Anyone who has a specialty in a given subject can share a new content they trust and approve as long as it content is from their area of knolegment. 
+VSME - Verified by Subject-Matter Experts is an app with educational / informational purpose. Anyone who has a specialty in a given subject can share a new content they trust and approve as long as it content is from their area of knolegment. 
 
 Each content can be add only via its content URL. And each URL can be added just once in the app.
 
